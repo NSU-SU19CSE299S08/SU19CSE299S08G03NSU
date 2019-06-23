@@ -1,1 +1,1 @@
-# CSE299-Unicus
+# CSE299 : Junior Design Project
