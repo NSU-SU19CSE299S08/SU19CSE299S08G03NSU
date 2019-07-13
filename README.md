@@ -1,5 +1,8 @@
 <div style="text-align: justify;">
-![drawing](nsulogo.jpg)
+  
+  <center>
+  <img src="https://raw.githubusercontent.com/majhar-nayem/SU19CSE299S08G03NSU/master/Documentation/nsulogo.jpg?token=AHWX2IWEAK5MV256EAE27J25EISWO" align="center" width="300"/>
+  
 <h2>UNICUS: WEB APP FOR FASHION SHOP</h2>
 
 Course Number: CSE299
@@ -22,6 +25,7 @@ Git repository link: [https://github.com/majhar-nayem/SU19CSE299S08G03NSU](https
 
 Date prepared:  June 17, 2019
 
+</center>
 
 **Project Idea:**  The Internet has become an integral part of the business, and online businesses continue to flourish. One billion people buy products via online devices (mobile phone, desktop computer, tablet, etc.). This amount grows daily. Fashion products are essential for our daily life.
 
