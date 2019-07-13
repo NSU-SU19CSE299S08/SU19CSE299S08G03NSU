@@ -31,5 +31,44 @@
                     </a>
                 </li>
                 <li>
+<a href="javascript:void(0)">
+                        <i class="menu-icon fa fa-envelope-o bg-light-blue"></i>
+
+                        <div class="menu-info">
+                            <h4 class="control-sidebar-subheading">Nora Joined Mailing List</h4>
+
+                            <p>nora@example.com</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <i class="menu-icon fa fa-file-code-o bg-green"></i>
+
+                        <div class="menu-info">
+                            <h4 class="control-sidebar-subheading">Cron Job 254 Executed</h4>
+
+                            <p>Execution time 5 seconds</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <!-- /.control-sidebar-menu -->
+
+            <h3 class="control-sidebar-heading">Tasks Progress</h3>
+            <ul class="control-sidebar-menu">
+                <li>
+                    <a href="javascript:void(0)">
+                        <h4 class="control-sidebar-subheading">
+                            Custom Template Design
+                            <span class="label label-danger pull-right">70%</span>
+                        </h4>
+
+                        <div class="progress progress-xxs">
+                            <div class="progress-bar progress-bar-danger" style="width: 70%"></div>
+                        </div>
+                    </a>
+                </li>
+                <li>
 
 </aside>
