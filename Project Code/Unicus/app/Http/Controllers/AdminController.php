@@ -24,7 +24,7 @@ class AdminController extends Controller
 
     public function login(Request $request)
     {
-        return $request->all();
+        //return $request->all();
 
         $this->validate($request, [
             'email'=> 'required|email',
