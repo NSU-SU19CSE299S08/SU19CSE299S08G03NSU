@@ -3,10 +3,20 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Auth;
+use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Support\Facades\Auth;
 
 class AdminController extends Controller
 {
+    use AuthenticatesUsers;
+
+    protected $redirectTo = '/admin/dashboard';
+
+    public function __construct()
+    {
+        $this->middleware('guest')->except('logout');
+    }
+
     public function showLoginForm(){
 
         return view('admin.login');
@@ -14,7 +24,7 @@ class AdminController extends Controller
 
     public function login(Request $request)
     {
-        //return $request->all();
+        return $request->all();
 
         $this->validate($request, [
             'email'=> 'required|email',
