@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Auth;
 
 class AdminController extends Controller
 {
@@ -13,6 +14,8 @@ class AdminController extends Controller
 
     public function login(Request $request)
     {
+        //return $request->all();
+
         $this->validate($request, [
             'email'=> 'required|email',
             'password'=> 'required|min:8'
@@ -23,7 +26,7 @@ class AdminController extends Controller
 
         if(Auth::guard('admin')->attempt($credentials)){
 
-            return redirect()->intended(route('admin.dashboard'));
+            return redirect()->intended(route('admin.master'));
         }
 
         return redirect()->back()->withInput($request->only('email', 'password'));
