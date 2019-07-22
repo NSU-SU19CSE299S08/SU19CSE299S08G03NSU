@@ -20,6 +20,7 @@ Auth::routes();
 
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/category/add-category', 'CategoryController@showAddCategoryForm')->name('category.add');
 
 
 
