@@ -21,7 +21,7 @@ Add Category
                     @endif
                     <!-- /.box-header -->
                     <!-- form start -->
-                    <form class="form-horizontal" method="POST" action="{{ url('/category/new-category') }}">
+                    <form class="form-horizontal" method="POST" action="{{ route('category.save') }}">
                         {{ csrf_field() }}
                         <div class="box-body">
                             <div class="form-group">
