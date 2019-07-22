@@ -35,13 +35,17 @@
 
             </li>
 
-            <li>
-                <a href="{{ route('item.add') }}">
-                    <i class="fa fa-th"></i> <span>Items</span>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-pie-chart"></i>
+                    <span>Category</span>
                     <span class="pull-right-container">
-              <small class="label pull-right bg-green">new</small>
+              <i class="fa fa-angle-left pull-right"></i>
             </span>
                 </a>
+                <ul class="treeview-menu">
+                    <li><a href="{{ route('category.add') }}"><i class="fa fa-circle-o"></i> Add Category</a></li>
+                </ul>
             </li>
 
             <li class="treeview">
