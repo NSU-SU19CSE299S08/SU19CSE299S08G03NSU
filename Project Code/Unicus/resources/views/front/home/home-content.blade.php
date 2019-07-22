@@ -1,4 +1,4 @@
-@extends('front.master')
+@extends('master')
 @section('content')
 <h1>{{ Session::get('message') }}</h1>
 <div class="index_slider">
