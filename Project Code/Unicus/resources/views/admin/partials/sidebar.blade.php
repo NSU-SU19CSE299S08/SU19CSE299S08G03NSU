@@ -45,6 +45,7 @@
                 </a>
                 <ul class="treeview-menu">
                     <li><a href="{{ route('category.add') }}"><i class="fa fa-circle-o"></i> Add Category</a></li>
+                    <li><a href="{{ route('category.edit') }}"><i class="fa fa-circle-o"></i> Add Category</a></li>
                 </ul>
             </li>
 
