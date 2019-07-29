@@ -51,6 +51,20 @@
 
             <li class="treeview">
                 <a href="#">
+                    <i class="fa fa-pie-chart"></i>
+                    <span>Products</span>
+                    <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="{{ route('category.add') }}"><i class="fa fa-circle-o"></i> Add Product</a></li>
+                    <li><a href="{{ route('category.manage') }}"><i class="fa fa-circle-o"></i>Manage Product</a></li>
+                </ul>
+            </li>
+
+            <li class="treeview">
+                <a href="#">
                     <i class="fa fa-files-o"></i>
                     <span>Demo</span>
                     <span class="pull-right-container">
