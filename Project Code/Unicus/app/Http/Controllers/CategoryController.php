@@ -44,4 +44,6 @@ class CategoryController extends Controller
 
         return redirect('/category/manage-category')->with('message', 'Category info update successfully.');
     }
+
+
 }

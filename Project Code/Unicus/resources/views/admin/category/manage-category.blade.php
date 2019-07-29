@@ -48,6 +48,9 @@
                                         <a href="{{ url('/category/edit-category/'.$category->id) }}" class="btn btn-info btn-xs" title="Edit blog">
                                             <span class="glyphicon glyphicon-edit"></span>
                                         </a>
+                                        <a href="{{ url('/category/delete-category/'.$category->id) }}" class="btn btn-danger btn-xs" onclick="return confirm('Are you sure to delete This ?');">
+                                            <span class="glyphicon glyphicon-trash"></span>
+                                        </a>
                                     </td>
                                 </tr>
                             @endforeach
