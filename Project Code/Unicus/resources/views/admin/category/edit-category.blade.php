@@ -18,7 +18,7 @@
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
-                    <form class="form-horizontal" name="editCategoryForm" method="POST" action="{{ url('/category/update-category') }}">
+                    <form class="form-horizontal" name="editCategoryForm" method="POST" action="{{ route('category.update') }}">
                         {{ csrf_field() }}
                         <div class="box-body">
                             <div class="form-group">

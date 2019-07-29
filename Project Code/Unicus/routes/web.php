@@ -24,6 +24,7 @@ Route::get('/category/add-category', 'CategoryController@showAddCategoryForm')->
 Route::post('/category/save-category', 'CategoryController@saveCategoryInfo')->name('category.save');
 Route::get('/category/manage-category', 'CategoryController@manageCategory')->name('category.manage');
 Route::get('/category/edit-category/{id}', 'CategoryController@editCategory')->name('category.edit');
+Route::post('/category/update-category', 'CategoryController@updateCategory')->name('category.update');
 
 
 
