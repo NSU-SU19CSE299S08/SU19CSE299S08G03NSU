@@ -23,6 +23,12 @@ class CategoryController extends Controller
         return redirect('category.add')->with('message', 'Category Info saved Successfully!');
 
     }
+    public function manageCategory(){
+            //$categories = Category::all();
+            $categories = Category::orderBy('id', 'desc')->get();
+            return view('admin.category.manage-category', ['categories' => $categories]);
+
+    }
 
     public function editCategory($id){
         $category = Category::find($id);
