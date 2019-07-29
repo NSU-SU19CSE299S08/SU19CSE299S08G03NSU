@@ -44,6 +44,9 @@ Route::get('/category/delete-category/{id}', 'CategoryController@deleteCategory'
 
 
 
+
+
+
 Route::get('/admin/login', 'AdminController@showLoginForm')->name('admin.login');
 Route::Post('/admin/login/check', 'AdminController@login')->name('admin.login.submit');
 Route::Post('/admin/dashboard', 'AdminController@dashboard')->name('admin.dashboard');
