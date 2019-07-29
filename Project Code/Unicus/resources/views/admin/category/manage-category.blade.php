@@ -1,0 +1,63 @@
+@extends('admin.master')
+@section('pageTitle')
+    Category
+@endsection
+@section('pgSubTitle')
+    Manage Category
+@endsection
+
+@section('content')
+    <!-- Main content -->
+    <section class="content">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="box">
+                    <div class="box-header">
+                        <h3 class="box-title">Category Information Data Table</h3>
+                    </div>
+                    <!-- /.box-header -->
+                    @if($message = Session::get('message'))
+                        <h3 class="text-center text-success">{{ $message }}</h3>
+                    @endif
+                    <div class="box-body">
+                        <table id="example1" class="table table-bordered table-striped">
+                            <thead>
+                            <tr>
+                                <th>Category Id</th>
+                                <th>Category Name</th>
+                                <th>Category Description</th>
+                                <th>Publication Status</th>
+                                <th>Action</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            @foreach($categories as $category)
+                                <tr>
+                                    <td>{{ $category->id }}</td>
+                                    <td>{{ $category->category_name }}</td>
+                                    <td>{{ $category->category_description }}</td>
+
+                                    <td>
+                                        @if($category->publication_status == 1)
+                                            <span class="label label-success">Published</span>
+                                        @else
+                                            <span class="label label-warning">Unpublished</span>
+                                        @endif
+                                    </td>
+
+                                </tr>
+                            @endforeach
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.box-body -->
+                </div>
+                <!-- /.box -->
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+    </section>
+    <!-- /.content -->
+@endsection
+
