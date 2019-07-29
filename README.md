@@ -1,7 +1,7 @@
 <div style="text-align: justify;">
   
   <center>
-  <img src="https://raw.githubusercontent.com/majhar-nayem/SU19CSE299S08G03NSU/master/Documentation/nsulogo.jpg?token=AHWX2IWEAK5MV256EAE27J25EISWO" align="center" width="300"/>
+  <img src="https://raw.githubusercontent.com/majhar-nayem/SU19CSE299S08G03NSU/master/Documentation/nsulogo.jpg?token=AHWX2IQN7Q3GMUEIFVRK2PC5JAAFC" align="center" width="300"/>
   
 <h2>UNICUS: WEB APP FOR FASHION SHOP</h2>
 
