@@ -44,7 +44,11 @@
                                             <span class="label label-warning">Unpublished</span>
                                         @endif
                                     </td>
-
+                                    <td>
+                                        <a href="{{ url('/category/edit-category/'.$category->id) }}" class="btn btn-info btn-xs" title="Edit blog">
+                                            <span class="glyphicon glyphicon-edit"></span>
+                                        </a>
+                                    </td>
                                 </tr>
                             @endforeach
                             </tbody>
