@@ -22,7 +22,8 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/category/add-category', 'CategoryController@showAddCategoryForm')->name('category.add');
 Route::post('/category/save-category', 'CategoryController@saveCategoryInfo')->name('category.save');
-Route::get('category/edit-category', 'CategoryController@editCategory')->name('category.edit');
+Route::post('/category/manage-category', 'CategoryController@manageCategory')->name('category.manage');
+Route::get('/category/edit-category/{id}', 'CategoryController@editCategory')->name('category.edit');
 
 
 

@@ -23,4 +23,9 @@ class CategoryController extends Controller
         return redirect('category.add')->with('message', 'Category Info saved Successfully!');
 
     }
+
+    public function editCategory($id){
+        $category = Category::find($id);
+        return view('admin/category/edit-category', ['category' => $category]);
+    }
 }
