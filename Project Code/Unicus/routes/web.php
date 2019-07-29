@@ -25,7 +25,7 @@ Route::post('/category/save-category', 'CategoryController@saveCategoryInfo')->n
 Route::get('/category/manage-category', 'CategoryController@manageCategory')->name('category.manage');
 Route::get('/category/edit-category/{id}', 'CategoryController@editCategory')->name('category.edit');
 Route::post('/category/update-category', 'CategoryController@updateCategory')->name('category.update');
-Route::get('/category/delete-category/', 'CategoryController@deleteCategory');
+Route::get('/category/delete-category/{id}', 'CategoryController@deleteCategory');
 
 
 
