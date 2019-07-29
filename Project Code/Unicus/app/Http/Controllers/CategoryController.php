@@ -35,5 +35,13 @@ class CategoryController extends Controller
         return view('admin.category.edit-category', ['category' => $category]);
     }
 
+    public function updateCategory(Request $request){
+        $categoryById = Category::find($request->category_id);
+        $categoryById->category_name = $request->category_name;
+        $categoryById->category_description = $request->category_description;
+        $categoryById->publication_status = $request->publication_status;
+        $categoryById->save();
 
+        return redirect('/category/manage-category')->with('message', 'Category info update successfully.');
+    }
 }
