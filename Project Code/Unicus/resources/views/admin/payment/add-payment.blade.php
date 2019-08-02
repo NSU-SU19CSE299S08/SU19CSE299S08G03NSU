@@ -43,7 +43,7 @@
                                 <label class="col-sm-3 control-label">Method</label>
 
                                 <div class="col-sm-9">
-                                    <select class="form-control" name="method">
+                                    <select class="form-control" name="payment_method">
                                         <option>Select Method</option>
                                         <option value="roket">Roket</option>
                                         <option value="bkash">Bkash</option>
