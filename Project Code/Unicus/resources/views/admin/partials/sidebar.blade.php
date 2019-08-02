@@ -66,14 +66,14 @@
             <li class="treeview">
                 <a href="#">
                     <i class="fa fa-pie-chart"></i>
-                    <span>Products</span>
+                    <span>Payement</span>
                     <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="{{ route('payment.add') }}"><i class="fa fa-circle-o"></i> Add Product</a></li>
-                    <li><a href="{{ route('payment.manage') }}"><i class="fa fa-circle-o"></i>Manage Product</a></li>
+                    <li><a href="{{ route('payment.add') }}"><i class="fa fa-circle-o"></i> Add Payment</a></li>
+                    <li><a href="#"><i class="fa fa-circle-o"></i>Manage Product</a></li>
                 </ul>
             </li>
 
