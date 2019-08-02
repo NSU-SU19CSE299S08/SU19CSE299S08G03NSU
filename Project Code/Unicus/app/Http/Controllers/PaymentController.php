@@ -10,4 +10,8 @@ class PaymentController extends Controller
 
         return view('admin.payment.add-payment');
     }
+
+    public function savePayment(Request $request){
+        return $request->all();
+    }
 }

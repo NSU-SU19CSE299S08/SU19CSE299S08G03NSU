@@ -29,6 +29,7 @@ Route::get('/category/delete-category/{id}', 'CategoryController@deleteCategory'
 
 
 Route::get('/payment/add-payment', 'PaymentController@addPaymentForm')->name('payment.add');
+Route::post('/payment/save-payment', 'PaymentController@savePayment')->name('payment.save');
 
 
 
