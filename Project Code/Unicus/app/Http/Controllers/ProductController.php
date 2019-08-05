@@ -18,4 +18,12 @@ class ProductController extends Controller
             'products' => $product
         ]);
     }
+
+    public function unpublishedProduct($id){
+        $unpublishedProductById = Product::find($id);
+        $unpublishedProductById->publication_status= 0;
+        $unpublishedProductById->save();
+
+        return redirect('/product/manage-product')->with('message','Product Unpublished Successfully!');
+    }
 }
