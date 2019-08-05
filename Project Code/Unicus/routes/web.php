@@ -32,6 +32,7 @@ Route::get('/payment/add-payment', 'PaymentController@addPaymentForm')->name('pa
 Route::post('/payment/save-payment', 'PaymentController@savePayment')->name('payment.save');
 
 Route::get('/product/add-product', 'ProductController@addProduct')->name('product.add');
+Route::get('/product/manage-product', 'ProductController@manageProduct')->name('product.manage');
 
 
 
