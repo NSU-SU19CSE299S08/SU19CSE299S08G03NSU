@@ -58,8 +58,8 @@
             </span>
                 </a>
                 <ul class="treeview-menu">
-{{--                    <li><a href="{{ route('product.add') }}"><i class="fa fa-circle-o"></i> Add Product</a></li>--}}
-{{--                    <li><a href="{{ route('category.manage') }}"><i class="fa fa-circle-o"></i>Manage Product</a></li>--}}
+                    <li><a href="{{ route('product.add') }}"><i class="fa fa-circle-o"></i> Add Product</a></li>
+                    <li><a href="{{ route('category.manage') }}"><i class="fa fa-circle-o"></i>Manage Product</a></li>
                 </ul>
             </li>
 
