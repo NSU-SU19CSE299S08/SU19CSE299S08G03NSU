@@ -28,9 +28,12 @@ Route::post('/category/update-category', 'CategoryController@updateCategory')->n
 Route::get('/category/delete-category/{id}', 'CategoryController@deleteCategory');
 
 
+Route::get('/payment/add-payment', 'PaymentController@addPaymentForm')->name('payment.add');
+Route::post('/payment/save-payment', 'PaymentController@savePayment')->name('payment.save');
 
-
-
+Route::get('/product/add-product', 'ProductController@addProduct')->name('product.add');
+Route::get('/product/manage-product', 'ProductController@manageProduct')->name('product.manage');
+Route::get('/product/unpublished-product/{id}', 'ProductController@unpublishedProduct')->name('product.manage');
 
 
 
