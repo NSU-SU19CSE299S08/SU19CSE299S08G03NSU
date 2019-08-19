@@ -39,6 +39,7 @@ Route::get('/brand/add-brand', 'BrandController@ShowAddBrandForm')->name('brand.
 Route::post('/brand/save-brand', 'BrandController@saveBrandInfo')->name('brand.save');
 Route::get('/brand/mange-brand', 'BrandController@manageBrandInfo')->name('brand.manage');
 Route::get('/brand/edit-brand/{id}', 'BrandController@editBrandInfo');
+Route::post('/brand/update-brand', 'BrandController@updateBrandInfo');
 
 
 
