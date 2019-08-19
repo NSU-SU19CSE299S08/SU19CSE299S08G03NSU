@@ -13,10 +13,13 @@ class CreateBrandsTable extends Migration
      */
     public function up()
     {
-        Schema::create('brands', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->timestamps();
-        });
+            Schema::create('brands', function (Blueprint $table) {
+                $table->increments('id');
+                $table->string('brand_name');
+                $table->text('brand_description');
+                $table->tinyInteger('publication_status');
+                $table->timestamps();
+            });
     }
 
     /**
