@@ -20,12 +20,12 @@ class CategoryController extends Controller
         $category->publication_status = $request->publication_status;
         $category->save();
 
-        return redirect('category.add')->with('message', 'Category Info saved Successfully!');
+        return redirect()->route('category.add')->with('message', 'Category Info saved Successfully!');
 
     }
     public function manageCategory(){
             //$categories = Category::all();
-            $categories = Category::orderBy('id', 'desc')->get();
+            $categories = Category::orderBy('id', 'asc')->get();
             return view('admin.category.manage-category', ['categories' => $categories]);
 
     }

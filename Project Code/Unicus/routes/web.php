@@ -33,7 +33,7 @@ Route::post('/payment/save-payment', 'PaymentController@savePayment')->name('pay
 
 Route::get('/product/add-product', 'ProductController@addProduct')->name('product.add');
 Route::get('/product/manage-product', 'ProductController@manageProduct')->name('product.manage');
-Route::get('/product/unpublished-product/{id}', 'ProductController@unpublishedProduct')->name('product.manage');
+Route::get('/product/unpublished-product/{id}', 'ProductController@unpublishedProduct');
 
 
 
