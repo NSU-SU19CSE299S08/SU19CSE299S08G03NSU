@@ -25,4 +25,11 @@ class BrandController extends Controller
 
         return view('admin.brand.manage-brand', ['brands' => $brands]);
     }
+
+    public function editBrandInfo($id){
+
+            $brand = Brand::find($id);
+            return view('admin/brand/edit-brand', ['brand' => $brand]);
+    }
+
 }
