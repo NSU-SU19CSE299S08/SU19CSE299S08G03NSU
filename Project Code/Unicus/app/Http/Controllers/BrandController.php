@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class BrandController extends Controller
 {
     public function ShowAddBrandForm(){
-       // return
+        return view('brand.add-brand');
     }
 }
