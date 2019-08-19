@@ -55,23 +55,14 @@ Manage Brand
                                     @endif
                                     <a href="{{ url('/brand/edit-brand/'.$brand->id) }}" class="btn btn-info btn-xs" title="Edit blog">
                                         <span class="glyphicon glyphicon-edit"></span>
-                                    </a>   
+                                    </a>
                                     <a href="{{ url('/brand/delete-brand/'.$brand->id) }}" class="btn btn-danger btn-xs" onclick="return confirm('Are you sure to delete This ?');">
                                         <span class="glyphicon glyphicon-trash"></span>
-                                    </a>                                            
+                                    </a>
                                 </td>
                             </tr>
                             @endforeach
                         </tbody>
-                        <tfoot>
-                            <tr>
-                                <th>Rendering engine</th>
-                                <th>Browser</th>
-                                <th>Platform(s)</th>
-                                <th>Engine version</th>
-                                <th>CSS grade</th>
-                            </tr>
-                        </tfoot>
                     </table>
                 </div>
                 <!-- /.box-body -->
