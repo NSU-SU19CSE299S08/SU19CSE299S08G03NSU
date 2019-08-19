@@ -33,8 +33,14 @@ Route::post('/payment/save-payment', 'PaymentController@savePayment')->name('pay
 
 Route::get('/product/add-product', 'ProductController@addProduct')->name('product.add');
 Route::get('/product/manage-product', 'ProductController@manageProduct')->name('product.manage');
-Route::get('/product/unpublished-product/{id}', 'ProductController@unpublishedProduct')->name('product.manage');
+Route::get('/product/unpublished-product/{id}', 'ProductController@unpublishedProduct');
 
+Route::get('/brand/add-brand', 'BrandController@ShowAddBrandForm')->name('brand.add');
+Route::post('/brand/save-brand', 'BrandController@saveBrandInfo')->name('brand.save');
+Route::get('/brand/mange-brand', 'BrandController@manageBrandInfo')->name('brand.manage');
+Route::get('/brand/edit-brand/{id}', 'BrandController@editBrandInfo');
+Route::post('/brand/update-brand', 'BrandController@updateBrandInfo');
+Route::get('/brand/delete-brand/{id}', 'BrandController@deleteBrand');
 
 
 
