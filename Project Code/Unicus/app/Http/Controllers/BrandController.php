@@ -41,4 +41,11 @@ class BrandController extends Controller
 
         return redirect('/brand/manage-brand')->with('message', 'Brand info update successfully.');
     }
+
+    public function deleteBrand($id){
+        $brandById = Brand::find($id);
+        $brandById->delete();
+
+        return redirect('/brand/manage-brand')->with('message', 'Brand info delete successfully.');
+    }
 }
