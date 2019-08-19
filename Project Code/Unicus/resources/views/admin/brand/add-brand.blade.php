@@ -21,7 +21,7 @@
                 @endif
                 <!-- /.box-header -->
                     <!-- form start -->
-                    <form class="form-horizontal" method="POST" action="{{ url('/brand/new-brand') }}">
+                    <form class="form-horizontal" method="POST" action="{{ route('brand.save') }}">
                         {{ csrf_field() }}
                         <div class="box-body">
                             <div class="form-group">

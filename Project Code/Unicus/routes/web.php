@@ -36,6 +36,7 @@ Route::get('/product/manage-product', 'ProductController@manageProduct')->name('
 Route::get('/product/unpublished-product/{id}', 'ProductController@unpublishedProduct');
 
 Route::get('/brand/add-brand', 'BrandController@ShowAddBrandForm')->name('brand.add');
+Route::post('/brand/save-brand', 'BrandController@saveBrandInfo')->name('brand.save');
 
 
 
