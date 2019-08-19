@@ -3,13 +3,16 @@
 namespace App\Http\Controllers;
 
 use App\Product;
+use App\Category;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
     public function addProduct(){
-
-        return view('admin.product.add-product');
+        $publishedCategories = Category::where('publication_status', 1)->get();
+        return view('admin.product.add-product' ,[
+            'publishedCategories' => $publishedCategories
+            ]);
     }
 
     public function manageProduct(){

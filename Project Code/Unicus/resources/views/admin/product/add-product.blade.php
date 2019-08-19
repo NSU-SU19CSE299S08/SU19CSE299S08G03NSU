@@ -1,4 +1,4 @@
-@extends('master')
+@extends('admin.master')
 @section('pageTitle')
     Product
 @endsection
@@ -45,17 +45,17 @@
                                 </div>
                             </div>
 
-                            <div class="form-group">
-                                <label class="col-sm-3 control-label">Brand Name</label>
-                                <div class="col-sm-9">
-                                    <select class="form-control" name="brand_id">
-                                        <option>Select Brand Name</option>
-                                        @foreach($publishedBrands as $publishedBrand)
-                                            <option value="{{ $publishedBrand->id }}">{{ $publishedBrand->brand_name }}</option>
-                                        @endforeach
-                                    </select>
-                                </div>
-                            </div>
+{{--                            <div class="form-group">--}}
+{{--                                <label class="col-sm-3 control-label">Brand Name</label>--}}
+{{--                                <div class="col-sm-9">--}}
+{{--                                    <select class="form-control" name="brand_id">--}}
+{{--                                        <option>Select Brand Name</option>--}}
+{{--                                        @foreach($publishedBrands as $publishedBrand)--}}
+{{--                                            <option value="{{ $publishedBrand->id }}">{{ $publishedBrand->brand_name }}</option>--}}
+{{--                                        @endforeach--}}
+{{--                                    </select>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
 
                             <div class="form-group">
                                 <label for="inputName3" class="col-sm-3 control-label">Product Price</label>
