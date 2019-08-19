@@ -58,7 +58,7 @@
             </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href=""><i class="fa fa-circle-o"></i> Add Product</a></li>
+                    <li><a href="{{ route('brand.add') }}"><i class="fa fa-circle-o"></i> Add Product</a></li>
                     <li><a href=""><i class="fa fa-circle-o"></i>Manage Product</a></li>
                 </ul>
             </li>
