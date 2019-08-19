@@ -32,4 +32,13 @@ class BrandController extends Controller
             return view('admin/brand/edit-brand', ['brand' => $brand]);
     }
 
+    public function updateBrandInfo(Request $request){
+        $brandById = Brand::find($request->brand_id);
+        $brandById->brand_name = $request->brand_name;
+        $brandById->brand_description = $request->brand_description;
+        $brandById->publication_status = $request->publication_status;
+        $brandById->save();
+
+        return redirect('/brand/manage-brand')->with('message', 'Brand info update successfully.');
+    }
 }
