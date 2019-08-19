@@ -19,4 +19,10 @@ class BrandController extends Controller
 
         return redirect('/brand/add-brand')->with('message', 'Brand info save successfully.');
     }
+
+    public function manageBrandInfo(){
+        $brands = Brand::orderBy('id', 'desc')->get();
+
+        return view('admin.brand.manage-brand', ['brands' => $brands]);
+    }
 }
