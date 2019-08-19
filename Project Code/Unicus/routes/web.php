@@ -35,6 +35,7 @@ Route::get('/product/add-product', 'ProductController@addProduct')->name('produc
 Route::get('/product/manage-product', 'ProductController@manageProduct')->name('product.manage');
 Route::get('/product/unpublished-product/{id}', 'ProductController@unpublishedProduct');
 
+Route::get('/brand/add-brand', 'BrandController@ShowAddBrandForm')->name('brand.add');
 
 
 
