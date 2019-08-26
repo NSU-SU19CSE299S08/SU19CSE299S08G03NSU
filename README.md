@@ -29,15 +29,17 @@
 
 <p align='center'><b>Student ID:</b> 162 1381 042 </p>
 
-<p align='center'><b>E-mail:</b> [majharul.islam02@northsouth.edu](mailto:majharul.islam02@northsouth.edu)</p>
+<p align='center'><b>E-mail:</b> majharul.islam02@northsouth.edu</p>
 <br>
 <p align='center'><b>Git repository link: </b></p>
 <p align='center'><a href="https://github.com/majhar-nayem/SU19CSE299S08G03NSU">https://github.com/majhar-nayem/SU19CSE299S08G03NSU </a></p>
 <br/>
 <br/>
-<p align='center'><b>Date prepared:<b>  June 17, 2019 </p>
+<p align='center'><b>Date prepared:<b>  Aug 26, 2019 </p>
 
 </p>
+<small align="right"><p>2</p></small>
+<hr/>
 <br>
 <br>
 <br>
@@ -55,8 +57,30 @@
  and giving us all support and guidance which made me complete the project duly. I am extremely thankful to him for providing such a nice support and guidance, although he had busy schedule.
   </p>
 </p>
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <br>
+<small align="right"><p>3</p></small>
+<hr/>
+<br/>
+
 <h2>Introduction</h2>
         <h3>Purpose: </h3>
         <p align='justify'>The Internet has become an integral part of the business, and online businesses continue to flourish. One billion people buy products via online devices (mobile phone, desktop computer, tablet, etc.). This amount grows daily. Fashion products are essential for our daily life</p>
@@ -72,6 +96,17 @@
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<small align="right"><p>4</p></small>
+<hr/>
 
 <h3>Features:</h3>
 
@@ -108,6 +143,11 @@
 <p align='justify'> <b>16. Cart:</b> General users can add a product on cart.</p>
 
 <p align='justify'> <b>17. Payment Method:</b> Users can opt for cash on delivery , Bkash, Roket, MasterCard , VisaCard.</p>
+
+<br>
+<small align="right"><p>4</p></small>
+<hr/>
+<br/>
 
 <p align='justify'> <b>Technology and Tools Used:</b>
 
