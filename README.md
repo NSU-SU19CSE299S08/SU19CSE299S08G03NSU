@@ -64,8 +64,8 @@
   
    <p align='justify'> Fashion products are essential for our daily life. Sometimes people do not want to shop for shopping. They like to Shop from home. And physical shop owners want to extend their business by online selling. But without an E-commerce Website or relevant online service it is not possible.</p>
         
- <p align='justify'><b>
-b) How would your product solve the problem?</b></p>
+ <p align='justify'>
+  <b> b) How would your product solve the problem?</b></p>
 
 <p align='justify'> If the shop owners have a website where they can show their product to the customers and customers can opt for their suitable products , the above discussed problem can be solved. Customer can order the product and shops can sell their products.</p>
 <br>
@@ -74,7 +74,7 @@ b) How would your product solve the problem?</b></p>
 
 <h3>Features:</h3>
 
-<p align='justify'> <b> 1. Sign in/out: <b> There are two types of users. They are the Admin, and guest. Guest can check products and order for product. Guest user do not required to login and register. Admin can login from domain/admin/login link using their credentials. <p>
+<p align='justify'> <b> 1. Sign in/out: </b> There are two types of users. They are the Admin, and guest. Guest can check products and order for product. Guest user do not required to login and register. Admin can login from domain/admin/login link using their credentials. <p>
 
 <p align='justify'><b>2. Category Defines:</b> There will be category defined for each of every product.</p>
 
