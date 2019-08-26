@@ -200,8 +200,72 @@ $user->save();
   Now you can login in admin panel using the link <b>yourdomain/admin/login</b>
   
   </p>
+ <br/>
+<br/>
+<br/>
+<br/>
+<small align="right"><p>6</p></small>
+<hr/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
   
-  
-  
+  <h2><b> Work Progress Phase : </b></h2>
+  <h3><b> Week - 01 : </b></h3>
+<p align="justify">In the first week of this project, I took instruction from our respected faculty member to form group and collect some ideas about the project i am going to do in this semester.</p>
+ 
+  <h3><b>Week - 02 : </b></h3>
+<p align="justify">In this week, I presented our ideas to our teacher. I have presented multiple ideas in front of our teacher and he choose one project for us. I am also instructed to make a project proposal for our project and to create folder structure in the GitHub repository.</p>
+ 
+  <h3><b> Week - 03 : </b></h3>
+<p align="justify">I made our project proposal and gave it our teacher. Initially, the project proposal was rejected for alignment issue. We also did not create the folder structure for the project. So we got a new deadline for the project proposal to submit with some penalty.</p>
+ 
+  <h3><b> Week - 04 : </b></h3>
+<p align="justify">In this week, we had submitted our project proposal and sir accepted it. During this week, we have work on two issues.  We worked on our database connection and created menu bar for the User Interface.</p>
+ 
+  <h3><b> Week - 05 : </b></h3>
+<p align="justify">During this time, I worked on installtion of laravel framework on my local machine and set the working environment with xampp.</p>
+ 
+  <h3><b>Week - 06 : </b></h3>
+<p align="justify"> In this week I was absence for my sickness and i could not demonostrate the projects. But I worked on admin login and and admin user creation. </p>
+ 
+  <h3>Week - 07 : </h3>
+<p align="justify">In this week I was also absence for my sickness and i could not demonostrate the projects. But I Template mastaring on laravel framework.</p>
+ 
+  <h3><b>Week - 08 : </b></h3>
+<p align="justify">After that i worked on Category module. In this week i create Add Category, Mange Category, Edit Category functions.  </p>
+ 
+  <h3><b>Week - 09 : </b></h3>
+<p align="justify"> In this, I work on Brand moudule. Add Brand, Mange Brand, Edit Brand functions. There were some issue  with my git commit and i resolved them.</p>
+ 
+  <h3><b>Week - 10 : </b></h3>
+<p align="justify">In this week, I worked on Product module. I create Add Product, Mange Product, Edit Product functionalites.</p>
+ 
+  <h3><b>Week - 11 : </b></h3>
+<p align="justify">This week i work on Order module.</p>
+<
+<br/>
+  <h3><b> Week - 12 : </b></h3>
+<p align="justify">Then, I worked on Admin paymment module option. Where admin will input received payment info in the server.</p>
+ 
+  <h3><b>Week - 13 : </b></h3>
+<p align="justify">After that, I worked on worked on showing the product on fontend. And create product details module. And create shipping mehtod and work on Bkash, roket, Ucash and cash on delvery.</p>
+ 
+  <h3><b>Week - 14 : </b></h3>
+<p align="justify">Demonstration.</p>
+<br/>
+<br/>  
+<br/>
+<br/>
+<br/>
+<br/>
+<small align="right"><p>7</p></small>
+<hr/>
+<br/>
+<br/>
+<br/>
 
 
