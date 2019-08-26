@@ -237,7 +237,15 @@ $user->save();
  
   <h3><b>Week - 08 : </b></h3>
 <p align="justify">After that i worked on Category module. In this week i create Add Category, Mange Category, Edit Category functions.  </p>
- 
+<br/>
+<br/>
+<small align="right"><p>7</p></small>
+<hr/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
   <h3><b>Week - 09 : </b></h3>
 <p align="justify"> In this, I work on Brand moudule. Add Brand, Mange Brand, Edit Brand functions. There were some issue  with my git commit and i resolved them.</p>
  
@@ -261,11 +269,15 @@ $user->save();
 <br/>
 <br/>
 <br/>
+<br/>  
 <br/>
-<small align="right"><p>7</p></small>
+<br/>
+<br/>
+<br/>  
+<br/>
+<br/>
+<small align="right"><p>8</p></small>
 <hr/>
-<br/>
-<br/>
-<br/>
+
 
 
