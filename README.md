@@ -122,4 +122,25 @@
 
 <p align='justify'> <b>Monetization:</b> Users can pay their payment using Roket, Bkash, VisaCard, MasterCard. After adding a product to cart, users will get a option to select a payment method and pay the amount. In the system, it will be check if the amount is equal or more than the payable amount, If yes then the order will be accepted automatically otherwise system will ask for the remaining amount. Admins will just enter the TxnID in the system. And rest of the process will be automatic.</p>
 
+<p align='justify'>
+<h2>Installation Guidanace: </h2>
+<p align='justify'>
+  This project is done in PHP-Laravel Framework. So it’s required the laravel <a href="https://laravel.com/docs/5.8#server-requirements" action="_blank">server requirement</a>. 
+  </p>
+  
+  <p align='justify'>
+  Fist you need to  download, unzip and copy & paste the Unicus folder in Project Code in your server. Then you need to connect  database with the project. Create a new database. Open .env file and  configure the following </p>
+  </p>
+ <!-- language: php -->
+DB_CONNECTION=mysq
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=database name
+DB_USERNAME=username
+DB_PASSWORD=password
+<!-- language: php -->
+ ```
+  
+  
+
 
