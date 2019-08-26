@@ -41,6 +41,7 @@
 <br>
 <br>
 <br>
+<p align="center">
 <h2>Acknowledment</h2>
  <p align='justify'>
   The success and final outcome of this project required a lot of guidance and assistance from many people and I am extremely privileged to have got this all along the completion of my project. All that I have done is only due to such supervision and assistance and I would not forget to thank them.
@@ -53,7 +54,7 @@
     I respect and thank Mr. Shaikh Shawon Arefin Shimon, for providing me an opportunity to do the project work in UNICUS: WEB APP FOR FASHION SHOP
  and giving us all support and guidance which made me complete the project duly. I am extremely thankful to him for providing such a nice support and guidance, although he had busy schedule.
   </p>
-
+</p>
 
 <br>
 <h2>Introduction</h2>
