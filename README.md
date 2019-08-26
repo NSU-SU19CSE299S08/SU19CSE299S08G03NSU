@@ -132,12 +132,12 @@
   Fist you need to  download, unzip and copy & paste the Unicus folder in Project Code in your server. Then you need to connect  database with the project. Create a new database. Open .env file and  configure the following </p>
   </p>
  <!-- language: php -->
-DB_CONNECTION=mysq
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=database name
-DB_USERNAME=username
-DB_PASSWORD=password
+ DB_CONNECTION=mysq
+ DB_HOST=127.0.0.1
+ DB_PORT=3306
+ DB_DATABASE=database name
+ DB_USERNAME=username
+ DB_PASSWORD=password
 <!-- language: php -->
  ```
   
