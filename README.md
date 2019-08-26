@@ -28,12 +28,12 @@
 
 <p align='center'><b>Student Name: Majharul Islam </p>
 
-<p align='center'><b>Student ID: 162 1381 042 </p>
+<p align='center'><b>Student ID:</b> 162 1381 042 </p>
 
 <p align='center'><b>E-mail:</b> [majharul.islam02@northsouth.edu](mailto:majharul.islam02@northsouth.edu)</p>
 <br>
 <p align='center'><b>Git repository link: </b></p>
-<p> [https://github.com/majhar-nayem/SU19CSE299S08G03NSU](https://github.com/majhar-nayem/SU19CSE299S08G03NSU) </p>
+<p align='center'><a href="https://github.com/majhar-nayem/SU19CSE299S08G03NSU">https://github.com/majhar-nayem/SU19CSE299S08G03NSU </a></p>
 <br/>
 <br/>
 <p align='center'><b>Date prepared:<b>  June 17, 2019 </p>
