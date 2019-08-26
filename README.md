@@ -1,39 +1,63 @@
-<div style="text-align: justify;">
+
   <p align="center">
-  <img width="460" height="250" src="https://raw.githubusercontent.com/majhar-nayem/SU19CSE299S08G03NSU/master/Documentation/nsulogo.jpg?token=AHWX2IQN7Q3GMUEIFVRK2PC5JAAFC">
+  <img src='https://elmsprodcdnendpoint.azureedge.net/attachments/15/2bfe67c5-2678-e011-969d-0030487d8897/46f5b6ce-3ea8-47ed-8444-80b87ed980cd.png'/>
 </p>
   
-  <p style="text-align: justify;" >
+  <br/>
+<br/>
+<br/>
   
-<h2>UNICUS: WEB APP FOR FASHION SHOP</h2>
+<h2 align='center'>UNICUS: WEB APP FOR FASHION SHOP</h2>
+<br>
+<p align="center">
+  
+<p align="center">Course Number: CSE299 </p>
 
-Course Number: CSE299
+<p align='center'><b>Section: </b>08</p>
+    <br/>
+    <p align='center'><b>Group: </b>03</p>
+    <br/>
+    <p align='center'><b>Semester: </b>Summer 2019</p>
+    <br/>
+    <p align='center'><b>Faculty Name: </b>Shaikh Shawon Arefin Shimon</p>   
+ </p>
+ <br>
+ <br>
+ 
+ <p align="center">
 
-Section: 08
+<p align='center'><b>Student Name: Majharul Islam </p>
 
-Group: 03
+<p align='center'><b>Student ID: 162 1381 042 </p>
 
-Semester: Summer 2019
-
-Faculty Name: Shaikh Shawon Arefin Shimon
-
-Student Name: Majharul Islam
-
-Student ID: 162 1381 042
-
-E-mail: [majharul.islam02@northsouth.edu](mailto:majharul.islam02@northsouth.edu)
-
-Git repository link: [https://github.com/majhar-nayem/SU19CSE299S08G03NSU](https://github.com/majhar-nayem/SU19CSE299S08G03NSU)
-
-Date prepared:  June 17, 2019
+<p align='center'><b>E-mail:</b> [majharul.islam02@northsouth.edu](mailto:majharul.islam02@northsouth.edu)</p>
+<br>
+<p align='center'><b>Git repository link: </b></p>
+<p> [https://github.com/majhar-nayem/SU19CSE299S08G03NSU](https://github.com/majhar-nayem/SU19CSE299S08G03NSU) </p>
+<br/>
+<br/>
+<p align='center'><b>Date prepared:<b>  June 17, 2019 </p>
 
 </p>
+<br>
+<br>
+<br>
 
-**Project Idea:**  The Internet has become an integral part of the business, and online businesses continue to flourish. One billion people buy products via online devices (mobile phone, desktop computer, tablet, etc.). This amount grows daily. Fashion products are essential for our daily life.
+<h2>1. Introduction</h2>
+        <h3>Purpose: </h3>
+        <p align='justify'>The Internet has become an integral part of the business, and online businesses continue to flourish. One billion people buy products via online devices (mobile phone, desktop computer, tablet, etc.). This amount grows daily. Fashion products are essential for our daily life</p>
+        <br>
+       <p align='justify'><b> a) What problem are you trying to solve?</b></p>
+  
+   <p align='justify'> Fashion products are essential for our daily life. Sometimes people do not want to shop for shopping. They like to Shop from home. And physical shop owners want to extend their business by online selling. But without an E-commerce Website or relevant online service it is not possible.</p>
+        
+ <p align='justify'><b>
+b) How would your product solve the problem?</b></p>
 
-**Problem:** Fashion products are essential for our daily life. Sometimes people do not want to shop for shopping. They like to Shop from home. And physical shop owners want to extend their business by online selling. But without an E-commerce Website or relevant online service it is not possible.
-
-**Solution:** If the shop owners have a website where they can show their product to the customers and customers can opt for their suitable products , the above discussed problem can be solved. Customer can order the product and shops can sell their products.
+<p align='justify'> If the shop owners have a website where they can show their product to the customers and customers can opt for their suitable products , the above discussed problem can be solved. Customer can order the product and shops can sell their products.</p>
+<br>
+<br>
+<br>
 
 <h3>Features:</h3>
 
