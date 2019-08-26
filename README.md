@@ -145,7 +145,7 @@
 <p align='justify'> <b>17. Payment Method:</b> Users can opt for cash on delivery , Bkash, Roket, MasterCard , VisaCard.</p>
 
 <br>
-<small align="right"><p>4</p></small>
+<small align="right"><p>5</p></small>
 <hr/>
 <br/>
 
@@ -171,15 +171,36 @@
   <p align='justify'>
   Fist you need to  download, unzip and copy & paste the Unicus folder in Project Code in your server. Then you need to connect  database with the project. Create a new database. Open .env file and  configure the following </p>
   </p>
- <!-- language: php -->
+
+<p align='justify'>
+   ```
  DB_CONNECTION=mysq
  DB_HOST=127.0.0.1
  DB_PORT=3306
  DB_DATABASE=database name
  DB_USERNAME=username
  DB_PASSWORD=password
-<!-- language: php -->
  ```
+  </p>
+  
+<p align='justify'> After that migrate the tabes using the following command `php artisan migrate`
+  </p>
+  
+  <p align='justify'>
+  The create an admin user using tinker. The command is following:
+ ```
+$user = new App\User;
+$user->name = 'Jon Doe';
+$user->email = 'example@example.com';
+$user->password = Hash::make('password');
+$user->save();
+   ```
+  </p>
+  <p align='justify'>
+  Now you can login in admin panel using the link <b>yourdomain/admin/login</b>
+  
+  </p>
+  
   
   
 
